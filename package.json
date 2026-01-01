@@ -1,15 +1,23 @@
 {
-  "name": "11.1_async-landing",
+  "name": "22.1_async-landing",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Professional Portfolio",
+  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Omar Hernández Rey",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
   }
 }
